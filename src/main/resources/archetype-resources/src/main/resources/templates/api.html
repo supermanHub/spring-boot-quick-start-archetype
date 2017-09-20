@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head th:replace="Layout:: head(~{::title}, ~{})">
-  <title th:text="${symbol_pound}{app.nav.home} + ' | ' + ${symbol_pound}{app.title}">首页</title>
+  <title th:text="APIs + ' | ' + ${symbol_pound}{app.title}">APIs</title>
 </head>
 <body th:replace="Layout:: body('webapi', ~{::content} , ~{::script})">
 	<div th:fragment="content" class="container mt-5">

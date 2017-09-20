@@ -12,11 +12,11 @@ import org.springframework.security.authentication.AuthenticationProvider;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
-import org.springframework.boot.autoconfigure.security.SecurityProperties;
-
 
 import ${package}.support.authentication.CustomAuthenticationProvider;
 import ${package}.web.service.UserService;
+
+import org.springframework.boot.autoconfigure.security.SecurityProperties;
 
 /**
  * <b>Security configurations</b><br>

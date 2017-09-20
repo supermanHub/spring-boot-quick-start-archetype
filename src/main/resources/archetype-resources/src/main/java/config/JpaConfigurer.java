@@ -11,7 +11,6 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.stereotype.Repository;
 
-
 import ${package}.support.jpa.CustomRepositoryFactoryBean;
 import ${package}.support.jpa.SpringSecurityAuditorAware;
 import ${package}.web.entity.User;

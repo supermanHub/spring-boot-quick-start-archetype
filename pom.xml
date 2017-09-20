@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.wenbo.archetype</groupId>
+  <groupId>com.github.supermanhub</groupId>
   <artifactId>spring-boot-quick-start-archetype</artifactId>
   <version>1.0</version>
   <packaging>maven-archetype</packaging>
@@ -38,7 +38,6 @@
       <name>Wenbo Wang</name>
       <email>jackie-1685@163.com</email>
       <roles>
-		<role>CEO</role>
         <role>CTO</role>
       </roles>
     </developer>
@@ -52,6 +51,6 @@
   </licenses>
 
   <scm>
-    <url>https://github.com/supermanHub/spring-boot-quick-start-archetype</url>
+    <url>https://github.com/supermanHub/spring-boot-quick-start-archetype.git</url>
   </scm>
 </project>

@@ -7,6 +7,7 @@ import org.springframework.hateoas.Link;
 import org.springframework.hateoas.mvc.ControllerLinkBuilder;
 import org.springframework.hateoas.mvc.ResourceAssemblerSupport;
 import org.springframework.util.CollectionUtils;
+
 import ${package}.api.AuthorController;
 import ${package}.api.BookController;
 import ${package}.api.resource.AuthorResource;
